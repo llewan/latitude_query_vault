@@ -1,0 +1,49 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+
+  &-queryLabel {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  &-queryInput {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-height: 200px;
+    resize: vertical;
+  }
+
+  &-queryError {
+    color: red;
+  }
+
+  &-sourceLabel {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  &-sourceSelect {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+
+  &-submitButton {
+    background-color: $primary-color;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    &:disabled {
+      border: 1px solid #999999;
+      background-color: #cccccc;
+      color: #666666;
+      cursor: not-allowed;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+$primary-color: #2196f3;
+
+body {
+  margin: 0;
+}
+.App {
+  > main {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@import './components/form/form.scss';
+@import './components/queryViewer/queryViewer.scss';
+@import './components/header/header.scss';
+@import './components/login/login.scss';
+@import './components/spinner/spinner';

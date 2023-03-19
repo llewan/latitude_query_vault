@@ -1,0 +1,36 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-control {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  &-labelControl {
+    font-size: 1.3rem;
+    margin-bottom: 5px
+  }
+
+  &-inputControl {
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+
+  &-submitButton {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+}

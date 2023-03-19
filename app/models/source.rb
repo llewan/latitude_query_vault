@@ -2,7 +2,7 @@ class Source < ApplicationRecord
   def forward_query(query)
     sleep(3)
 
-    mock = { "fruits" => [
+    mock = [
       {
         "name" => "#{self.id} Apple",
         "image" => "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/265px-Red_Apple.jpg",
@@ -15,7 +15,7 @@ class Source < ApplicationRecord
         "name" => "#{self.source_connection_string} Pineapple",
         "image" => "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/286px-Pineapple_and_cross_section.jpg",
       }
-    ]}
+    ]
 
     return JSON.generate(mock)
   end
