@@ -1,25 +1,24 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+# latitude_query_vault
 
 * Ruby version
+  - Ruby v3.2.1
+  - Rails v7.0.4.3
+  - Yarn v1.22.19
 
-* System dependencies
-
+* 
 * Configuration
+- `bundle install`
+- `yarn install`
+- `rails db:create`
 
 * Database creation
+- `rails db:create`
+- `rails db:migrate`
 
-* Database initialization
+* Initialization
+- `rails db:seed`
+- `rails server`
 
-* How to run the test suite
+* How to run unit tests
+- `yarn test`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# latitude_query_vault
